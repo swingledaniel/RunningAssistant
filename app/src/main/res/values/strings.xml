@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Running Assistant</string>
+    <string name="current_location">Current Location</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="temperature">Temperature:</string>
+    <string name="feels_like">Feels Like:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="autocomplete_location_search">Autocomplete Location Search</string>
+    <string name="OWM_api_key">0da273ddf06a0dc88b01c23fd6ecb721</string>
+</resources>
