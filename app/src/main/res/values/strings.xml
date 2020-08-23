@@ -5,6 +5,12 @@
     <string name="temperature">Temperature:</string>
     <string name="feels_like">Feels Like:</string>
     <string name="humidity">Humidity:</string>
-    <string name="autocomplete_location_search">Autocomplete Location Search</string>
+    <string name="location_search">Search places</string>
     <string name="OWM_api_key">0da273ddf06a0dc88b01c23fd6ecb721</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="unit_title">Units</string>
+    <string name="lang_title">Language</string>
 </resources>

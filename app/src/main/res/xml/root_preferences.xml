@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Localization">
+
+        <ListPreference
+            app:defaultValue="imperial"
+            app:entries="@array/unit_entries"
+            app:entryValues="@array/unit_values"
+            app:key="unit"
+            app:title="@string/unit_title"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <ListPreference
+            app:defaultValue="en"
+            app:entries="@array/lang_entries"
+            app:entryValues="@array/lang_values"
+            app:key="lang"
+            app:title="@string/lang_title"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>
